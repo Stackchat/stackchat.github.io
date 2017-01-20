@@ -1,0 +1,57 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-size: 0;
+    font-family: "Overpass", sans-serif;
+    color: #333;
+}
+
+#wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+#titleBar {
+    width: 100%;
+    height: 250px;
+    border-bottom: 2px #888 solid;
+}
+
+#title {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 85px;
+}
+
+#content {
+    width: 100%;
+}
+
+.feedItem {
+    padding: 40px 0;
+    border-bottom: 1px #bbb solid;
+    text-align: center;
+}
+
+.participantsBlock {
+    display: inline-block;
+    min-width: 150px;
+    width: 20%;
+    height: 166px;
+    vertical-align: top;
+}
+
+.participants {
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 16px;
+    vertical-align: middle;
+    line-height: 24px;
+}
