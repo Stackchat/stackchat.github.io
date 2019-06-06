@@ -7,21 +7,25 @@ body {
     color: #333;
 }
 
-#wrapper {
-    max-width: 1080px;
-    margin: 0 auto;
-}
-
 #titleBar {
+    padding-bottom: 30px;
     width: 100%;
-    border-bottom: 2px #888 solid;
+    background: #ff024a;
+    text-align: center;
+    font-family: "Cocogoose";
+    font-size: 50px;
+    color: #ffffff;
 }
 
-#title {
-    width: 80%;
-    margin: 50px auto;
-    text-align: center;
-    font-size: 50px;
+#logo {
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+}
+
+#wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 #content {
